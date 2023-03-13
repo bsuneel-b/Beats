@@ -256,3 +256,90 @@ nav div button:hover{
 .footsup p, .footprod p{
     font-size: smaller;
 }
+/* responsive  */
+@media screen and (max-width: 475px){
+    .mainImage{
+        display: none;
+    }
+    nav{
+        margin: 20px 10px;
+    }
+    nav div a{
+        font-size: 10px;
+        margin: 0 10px;
+    }
+    nav div button{
+        padding: 5px 15px;
+        margin-left: 15px;
+    }
+    nav img{
+        margin-right: 10px;
+    }
+    .mainSection{
+        padding: 20px 15px;
+    }
+    .onEar{
+        display: none;
+    }
+    .logos{
+        margin: 30px 20px;
+    }
+    .logos>img{
+        height: 15px;
+
+    }
+    .Product div{
+        width: 50px;
+        margin-top: 20px;
+    }
+    .cur{
+        margin-left: 20 !important;
+    }
+    .Product div p{
+       margin: 8px 0px;
+       font-size: 8px !important;
+    }
+    .specsImage{
+        margin-left: 40px;
+        width: 150px;
+    }
+    .mainSection-1,.mainSection-2,.mainSection-3{
+        margin: 20px;
+        justify-content: center;
+    }
+    .case{
+        width: 120px;
+        margin-right: 20px;
+    }
+    .specsLogo, .caseLogo{
+        margin-top: 20px;
+    }
+    .mainSection-3{
+        padding: 10px 20px;
+        margin: auto;
+        flex-direction: column-reverse;
+        
+    }
+    .mainSection-3>div{
+        font-size: 15px !important;
+        margin-right: 0;
+    }
+    .mainSection-3>img{
+        width: 220px;
+    }
+    .mainSection-4{
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .hProducts{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .mainSection-5{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 20px;
+    }
+}
